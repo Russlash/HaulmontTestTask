@@ -1,0 +1,6 @@
+INSERT INTO "PUBLIC"."PATIENT" ("ID", "NAME", "SURNAME", "PATRONYMIC", "PHONE") VALUES (1, 'john', 'sena', 'dima', '1488');
+INSERT INTO "PUBLIC"."PATIENT" ("ID", "NAME", "SURNAME", "PATRONYMIC", "PHONE") VALUES (2, 'johny', 'sena', 'dron', '555');
+INSERT INTO "PUBLIC"."PRIORITY" ("ID", "NAME") VALUES (1, 'normal');
+INSERT INTO "PUBLIC"."PRIORITY" ("ID", "NAME") VALUES (2, 'cito');
+INSERT INTO "PUBLIC"."PRIORITY" ("ID", "NAME") VALUES (3, 'statim');
+INSERT INTO "PUBLIC"."DOCTOR" ("ID", "NAME", "SURNAME", "PATRONYMIC", "SPECIALIZATION") VALUES (1, 'mark', 'fett', 'grom', 'surgeon');
